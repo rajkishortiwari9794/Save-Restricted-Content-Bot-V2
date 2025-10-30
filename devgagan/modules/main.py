@@ -181,9 +181,7 @@ async def batch_link(_, message):
                     
         if not any(prefix in start_id for prefix in ['t.me/c/', 't.me/b/']):
             # await app.send_message(message.chat.id, "Skipping second iteration as the link is not valid.")
-            await app.send_message(message.chat.id, "Batch completed successfully!
-Thank You
-Tripathiji 🧡  🎉")
+            await app.send_message(message.chat.id, "Batch completed successfully!🎉")
             return
         # edit kr lena kuchhu dikkat ho to
         data = await db.get_data(user_id)
