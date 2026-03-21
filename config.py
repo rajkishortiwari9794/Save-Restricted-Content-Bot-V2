@@ -5,7 +5,7 @@ from os import getenv
 
 API_ID = int(getenv("API_ID", "24954614"))
 API_HASH = getenv("API_HASH", "854d71e266722a054d214898c754c70b")
-BOT_TOKEN = getenv("BOT_TOKEN", "7889923522:AAFqnudJuXuuQId8kBej3NUnHJNWMAk62SU")
+BOT_TOKEN = getenv("BOT_TOKEN", "7925657014:AAGNxFPDV1UBu2Xiav9tUwI1Btaes0gmyUE")
 OWNER_ID = list(map(int, getenv("OWNER_ID", "5716292248 7604081669 5648658139 7080075962").split()))
 MONGO_DB = getenv("MONGO_DB", "mongodb+srv://jeetnarayantiwari5:FGXfMWTnAsaEB4u2@cluster0.2whtu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 LOG_GROUP = getenv("LOG_GROUP", "-1002879576790")
